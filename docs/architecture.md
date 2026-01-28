@@ -28,8 +28,8 @@ graph TD
     subgraph "Monitoring & Alerting"
         Entra -.->|Log| Logs[Sign-in Logs]
         ActiveRole -.->|Log| Audit[Audit Logs]
-        Logs -->|Filter: Break-glass| AlertBG((🚨 ALERT: Break-Glass))
-        Audit -->|Filter: PIM Activation| AlertPIM((⚠️ ALERT: PIM))
+        Logs -->|Filter: Break-glass| AlertBG(( ALERT: Break-Glass))
+        Audit -->|Filter: PIM Activation| AlertPIM(( ALERT: PIM))
     end
     
     %% Styling
